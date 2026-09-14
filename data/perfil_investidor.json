@@ -18,19 +18,4 @@
       "prazo": "2027-12"
     }
   ]
-  },
-  {
-  "nome": "Pedro Augusto",
-  "idade": 27,
-  "profissao": "Gerente de Hotel",
-  "renda_mensal": 6500.00,
-  "perfil_investidor": "Iniciante",
-  "objetivo_principal": "Gerar uma renda passiva mensal",
-  "patrimonio_total": 4200.00,
-  "reserva_emergencia_atual": 2000.00,
-  "aceita_risco": true,
-  "metas": [
-      "meta": "Investimento com retorno rápido",
-      "prazo": "2027-04"
-    ]
   }
