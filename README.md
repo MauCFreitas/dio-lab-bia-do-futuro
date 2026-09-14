@@ -1,16 +1,12 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 🤖 Agente de Educação em Investimentos Inteligente com IA Generativa (IAGO)
 
 ## Contexto
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
+Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Com o IAGO, é a proposta guiar investidores, e esclarecer duvidas sobre tudo no mundo dos investimentos!
 
-- **Antecipar necessidades** ao invés de apenas responder perguntas
-- **Personalizar** sugestões com base no contexto de cada cliente
-- **Cocriar soluções** financeiras de forma consultiva
+- **Antecipar necessidades** ao invés de apenas responder perguntas, sugerir próximos assuntos para debater
+- **Personalizar** sugestões com base no contexto de cada cliente e expandir mais sobre o assunto já questionado
 - **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
-
-> [!TIP]
-> Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
 
 ---
 
@@ -35,10 +31,10 @@ Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alim
 
 | Arquivo | Formato | Descrição |
 |---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
+| `movimentações.csv` | CSV | Histórico de transações do cliente |
 | `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
+| `perfil_investidor2.json` | JSON | Perfil e preferências do cliente |
+| `produtos_investimentos.json` | JSON | Produtos e serviços disponíveis |
 
 Você pode adaptar ou expandir esses dados conforme seu caso de uso.
 
