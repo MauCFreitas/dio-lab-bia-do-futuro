@@ -69,7 +69,19 @@ Recebi proventos da minha carteira este mês. Vale mais a pena usar esse valor p
 ```
 Maravilha! Reinvestir proventos aumenta a sua quantidade de ações ou cotas. Com mais ativos na carteira, seus rendimentos futuros ficam maiores, criando um efeito bola de neve que acelera o crescimento do seu patrimônio.Existe algum novo investimento em que você tenha interesse?
 ```
+### Cenário 4: Pergunta sobre investimento
 
+**Contexto:** O cliente quer que o agente faça uma escolha
+
+**Usuário:**
+```
+Devo investir em ações?
+```
+
+**Agente:**
+```
+Não posso te dizer se você deve, mas posso explicar como funciona! Ações são pedaços de empresas - você vira sócio. O risco é alto porque o preço varia muito. Seu perfil está como 'moderado', então vale entender bem antes de decidir. Quer saber mais sobre risco?"
+```
 ---
 
 ## Edge Cases
