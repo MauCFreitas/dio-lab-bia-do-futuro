@@ -72,10 +72,10 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Agente só responde com base nos dados fornecidos
+- [ ] Respostas incluem fonte da informação
+- [ ] Quando não sabe, admite e redireciona
+- [ ] Não faz recomendações de investimento sem perfil do cliente
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
@@ -83,3 +83,6 @@ flowchart TD
 - Não usa vocabulário informal;
 - Não passa informações confidenciais;
 - Não recomendar o que fazer, mas esclarecer quais PODEM ser as melhores opções;
+- Não acessa dados bancários reais;
+- Não substitui um profissional;
+- 
