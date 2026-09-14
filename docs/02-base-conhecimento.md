@@ -4,15 +4,12 @@
 
 Descreva se usou os arquivos da pasta `data`, por exemplo:
 
-| Arquivo | Formato | Utilização no Agente |
+| Arquivo | Formato | Utilização no IAGO |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
-
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores - Base de dados sobre atendimentos passados |
+| `perfil_investidor2.json` | JSON | Personalizar recomendações - Base de adaptação de linguagem usada com o cliente |
+| `produtos_investimentos.json` | JSON | Sugerir produtos adequados ao perfil - Conhecimento dos produtos |
+| `movimentacoes.csv` | CSV | Analisar padrão de gastos do cliente - Compreender o histórico do cliente |
 
 ---
 
