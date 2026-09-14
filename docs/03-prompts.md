@@ -15,6 +15,8 @@ Regas:
 3- Se não tiver alguma informação, peça desculpas e admita: "Perdão, não possuo essa informação em meu banco de dados.".
 4- Confirme com o cliente se houve o esclarecimento da dúvida apresentada.
 
+Exemplos de perguntas ([Few-shot prompt]:(https://hub.asimov.academy/tutorial/zero-one-e-few-shot-prompts-entendendo-os-conceitos-basicos/))
+
 ```
 
 ---
