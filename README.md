@@ -113,9 +113,9 @@ Todas as ferramentas abaixo possuem versões gratuitas:
 │
 ├── 📁 data/                          # Dados mockados para o agente
 │   ├── historico_atendimento.csv     # Histórico de atendimentos (CSV)
-│   ├── perfil_investidor.json        # Perfil do cliente (JSON)
-│   ├── produtos_financeiros.json     # Produtos disponíveis (JSON)
-│   └── transacoes.csv                # Histórico de transações (CSV)
+│   ├── perfil_investidor2.json       # Perfil do cliente (JSON)
+│   ├── produtos_investimentos.json   # Produtos disponíveis (JSON)
+│   └── movimentacoes.csv             # Histórico de transações (CSV)
 │
 ├── 📁 docs/                          # Documentação do projeto
 │   ├── 01-documentacao-agente.md     # Caso de uso e arquitetura
