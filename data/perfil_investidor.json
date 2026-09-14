@@ -4,20 +4,33 @@
   "profissao": "Analista de Sistemas",
   "renda_mensal": 5000.00,
   "perfil_investidor": "moderado",
-  "objetivo_principal": "Construir reserva de emergência",
+  "objetivo_principal": "Descobrir a diferença LCI e LCA",
   "patrimonio_total": 15000.00,
   "reserva_emergencia_atual": 10000.00,
   "aceita_risco": false,
   "metas": [
     {
-      "meta": "Completar reserva de emergência",
-      "valor_necessario": 15000.00,
-      "prazo": "2026-06"
+      "meta": "Investimento de longo prazo",
+      "prazo": "2027-01"
     },
     {
       "meta": "Entrada do apartamento",
-      "valor_necessario": 50000.00,
       "prazo": "2027-12"
     }
   ]
-}
+  },
+  {
+  "nome": "Pedro Augusto",
+  "idade": 27,
+  "profissao": "Gerente de Hotel",
+  "renda_mensal": 6500.00,
+  "perfil_investidor": "Iniciante",
+  "objetivo_principal": "Gerar uma renda passiva mensal",
+  "patrimonio_total": 4200.00,
+  "reserva_emergencia_atual": 2000.00,
+  "aceita_risco": true,
+  "metas": [
+      "meta": "Investimento com retorno rápido",
+      "prazo": "2027-04"
+    ]
+  }
