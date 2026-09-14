@@ -61,10 +61,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | [Chatbot em Streamlit] |
+| LLM | [Ollama (local)] |
+| Base de Conhecimento | JSON/CSV do sistema] |
+| Validação | Checagem de alucinações |
 
 ---
 
@@ -83,4 +83,3 @@ flowchart TD
 - Não usa vocabulário informal;
 - Não passa informações confidenciais;
 - Não recomendar o que fazer, mas esclarecer quais PODEM ser as melhores opções;
-- 
