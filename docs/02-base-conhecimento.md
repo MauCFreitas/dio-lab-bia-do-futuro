@@ -33,16 +33,13 @@ Para a leitura destes dados, o agente usará a linguagem Python para assimilar a
 import pandas as pd
 import json
 
-# JSON
-with open("data/perfil_investidor.json", "r", encoding="UTF-8") as f:
-    perfil = json.load(f)
+## CSV
+movimentações = pd.read_csv('.data\transacoes.csv')
+historico = pd.read_csv('.data\historico_atendimento.csv')
 
-with open("data/produtos_financeiros.json", "r", encoding="UTF-8") as f:
-    produtos = json.load(f)
-
-# CSV
-historico = pd.read_csv("data/historico_atendimento.csv")
-movimentacoes = pr.read_csv("data/transacoes.csv")
+## JSON
+produtos = json.load(open('.data\produtos_financeiros.json'))
+perfil = json.load(open('.data\perfil_investidor.json'))
 
 ```
 
