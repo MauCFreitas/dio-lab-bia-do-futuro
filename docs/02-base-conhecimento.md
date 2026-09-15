@@ -34,12 +34,12 @@ import pandas as pd
 import json
 
 ## CSV
-movimentações = pd.read_csv('.data\transacoes.csv')
-historico = pd.read_csv('.data\historico_atendimento.csv')
+movimentações = pd.read_csv(r'data\movimentacoes.csv')
+historico = pd.read_csv(r'data\historico_atendimento.csv')
 
 ## JSON
-produtos = json.load(open('.data\produtos_financeiros.json'))
-perfil = json.load(open('.data\perfil_investidor.json'))
+produtos = json.load(open(r'data\produtos_investimentos.json'))
+perfil = json.load(open(r'data\perfil_investidor.json'))
 
 ```
 
