@@ -135,3 +135,34 @@ Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Voc�
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
 - Devido a mudança da usabilidade do agente, algumas alterações foram feitas para se enquadrarem melhor aos objetivos.
+
+
+## Simulações em ferramentas parecidas
+
+Após da produção do prompt, testei as diretrizes do IAGO nem 3 assistentes virtuais com IA: DeepSeek, Claude.Ai e Microsoft Copilot; 
+Nos 3 casos, inseri os prompts e os arquivos do banco de dados, e pedi para que se comportassem como o IAGO.
+Então após a compreensão da forma como deveriam agir, solicitei 3 perguntas:
+1- Diretamente sobre investimentos;
+2- Indiretamente sobre investimentos abordando as eleições brasileiras como tema secundário;
+3- Sobre algum assunto aleatório fugindo totalmente do tema
+As ferramentas se comportaram individual, cada uma, sendo estes:
+
+> DeepSeek(DeepSeek-V1):
+  1- Respondeu bem aos testes, apresentando as respostas desejadas de forma sucinta e direta, questionou sobre o entendimento para expandir o dialogo.
+  2- Se mostrou imparcial politicamente e tentou retornar ao assunto de investimentos utilizando um gancho da pergunta. Também retornou o questionamento se o usuário havia compreendido.
+  3- Com a fuga do tema de investimentos, lamentou não ser capaz de responder, e tentou retornar ao tema anterior.
+
+Avaliação pessoal: 9.0/10.0
+> Microsoft Copilot(GPT-4o):
+  1- Respondeu bem quando questionado sobre investimentos. Foi simples e abrangente, pontuando o que cada produto solicitado apresentava.
+  2- Apesar de imparcial, demonstrou uma visão de mercado abrangente, e tentou se basear nos dados dos arquivos para fundamentar uma resposta.
+  3- Houve uma total fuga do tema, gerando uma resposta totalmente fora do contexto de investimentos.
+
+Avaliação pessoal: 4.0/10.0
+
+>Claude(Claude 3.7 Sonnet):
+  1- Foi explicativo e abrangente, utilizando dados do perfil do cliente para explicar melhor alguns pontos.
+  2- Não desviou do assunto, mas tentou fazer um paralelo para desenvolver uma explicação sobre investimentos.
+  3- Se recusou a responder sobre temas que fujam de investimentos e tentou retornar ao assunto principal.
+
+Avaliação pessoal: 8.5/10.0
