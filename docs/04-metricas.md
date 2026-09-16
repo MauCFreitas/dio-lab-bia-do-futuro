@@ -49,14 +49,21 @@ Crie testes simples para validar seu agente:
 ---
 
 ## Resultados
+modelos utilizados:  
+Qwen 2.5:0.5b - Não correspondeu as expectativas. Apesar de apresentar respostas rápidas, não respondia de maneira adequada.
+Qwen 2.5:3b - Teve um desempenho melhor que a versão anterior, mas ainda parece meio despreparado.  
+Por ausencia de características tecnológicas no computador, os testes pararam por aqui
 
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- O agente respondeu de forma adequada aos questionamentos
+- Não aceitou fugir do tema
+- Apresentou dados baseados em fontes, apenas 
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Por serem versões mais fracas, e com baixo poder de processamento, as respostas, apesar de corretas pareceram meio cruas e sem preparo. - Melhores treinamentos podem resolver este ponto
+- 
 
 ---
 
